@@ -1,0 +1,31 @@
+@import url(./styles/normalize.css);
+@import url(./fonts/fonts.css);
+@import url(./blocks/header.css);
+@import url(./blocks/profile.css);
+@import url(./blocks/button.css);
+@import url(./blocks/cards.css);
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 880px;
+  margin: auto;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(84, 84, 84, 1);
+  cursor: pointer;
+}
